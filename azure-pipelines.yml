@@ -10,7 +10,8 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'e90209a0-2444-4b3a-818a-2b602fb478e7'
+  # dockerRegistryServiceConnection: 'e90209a0-2444-4b3a-818a-2b602fb478e7'
+  acrConnection: 'registrydockerct'
   imageRepository: 'nodeappdocker'
   containerRegistry: 'registrydockerct.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
